@@ -1,0 +1,65 @@
+{
+    "MarathonMan": {
+        "checkpoints": [
+            {
+                "steps": 8499728,
+                "file_path": "results\\MarathonMan\\MarathonMan\\MarathonMan-8499728.onnx",
+                "reward": 913.4848526000976,
+                "creation_time": 1732583459.3298926,
+                "auxillary_file_paths": [
+                    "results\\MarathonMan\\MarathonMan\\MarathonMan-8499728.pt"
+                ]
+            },
+            {
+                "steps": 8999257,
+                "file_path": "results\\MarathonMan\\MarathonMan\\MarathonMan-8999257.onnx",
+                "reward": 823.1340111626519,
+                "creation_time": 1732583609.8552005,
+                "auxillary_file_paths": [
+                    "results\\MarathonMan\\MarathonMan\\MarathonMan-8999257.pt"
+                ]
+            },
+            {
+                "steps": 9499401,
+                "file_path": "results\\MarathonMan\\MarathonMan\\MarathonMan-9499401.onnx",
+                "reward": 943.0597941080729,
+                "creation_time": 1732583760.8827162,
+                "auxillary_file_paths": [
+                    "results\\MarathonMan\\MarathonMan\\MarathonMan-9499401.pt"
+                ]
+            },
+            {
+                "steps": 9999777,
+                "file_path": "results\\MarathonMan\\MarathonMan\\MarathonMan-9999777.onnx",
+                "reward": 847.0344085693359,
+                "creation_time": 1732583909.342019,
+                "auxillary_file_paths": [
+                    "results\\MarathonMan\\MarathonMan\\MarathonMan-9999777.pt"
+                ]
+            },
+            {
+                "steps": 10000777,
+                "file_path": "results\\MarathonMan\\MarathonMan\\MarathonMan-10000777.onnx",
+                "reward": 859.3843966397372,
+                "creation_time": 1732583909.3999202,
+                "auxillary_file_paths": [
+                    "results\\MarathonMan\\MarathonMan\\MarathonMan-10000777.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 10000777,
+            "file_path": "results\\MarathonMan\\MarathonMan.onnx",
+            "reward": 859.3843966397372,
+            "creation_time": 1732583909.3999202,
+            "auxillary_file_paths": [
+                "results\\MarathonMan\\MarathonMan\\MarathonMan-10000777.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.5.1+cpu"
+    }
+}

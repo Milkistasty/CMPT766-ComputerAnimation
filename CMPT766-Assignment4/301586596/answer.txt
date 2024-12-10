@@ -1,0 +1,14 @@
+CMPT766 - Computer Animation - Assignment 4 - Deep Reinforcement Learning
+
+Student name: Wenhe Wang
+Student ID: 301586596
+Student email: wwa118@sfu.ca
+
+Reference: 
+https://github.com/miyamotok0105/unity-ml-agents/tree/master
+https://www.gocoder.one/blog/training-agents-using-ppo-with-unity-ml-agents/
+
+
+For the standard reward function, I think my design choices facilitate training by providing positive reinforcement for desired behaviors—rewarding forward movement and upright posture gives clear signals to the agent. The weighted sum of rewards of speed and direction allows the agent to prioritize moving forward while not neglecting balance (the speed). Penalizing falls introduces a penalty for undesirable outcomes, encouraging the agent to avoid actions that lead to failure. Keeping the rewards between 0 and 1 simplifies the learning process and helps stabilize training by ensuring consistency in the reward signals.
+
+For the variation reward function, I used an approach similar to the standard one but changed the agents' movement direction from the +z axis (forward) to the +x axis (sideways). However, I observed that training with this function was significantly more challenging than with the standard version—the mean reward plateaued around 900. The reason could be due to our initial position and orientation of agents.
