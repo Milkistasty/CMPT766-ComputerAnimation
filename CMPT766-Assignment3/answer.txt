@@ -1,0 +1,23 @@
+Student ID: 301586596
+Student Name: Wenhe Wang
+
+Part 4: Parameters Tuning
+
+Best values I found:
+Dt: 0.0001
+Mass: 1
+Ks: 1500
+Kd: 20
+Mu: 1
+
+
+Dt (Time Step): A small time step increases simulation accuracy, particularly for detecting and responding to collisions, so I just make it as small as possible but keeping the animation looks smooth. And I found this value 0.0001 worked the best, if value smaller than this, the animation of the write dice will look much slower than the yellow dice.
+
+Mass: Higher mass makes the dice fall faster and resist changes in motion more during collisions. But in order to get the similar motions as the yellow dice's, I didn't change this one.
+
+Ks (Spring Constant): Controls the repulsive force when penetrating the ground. Higher values reduce penetration depth, causing firmer bounces. For this one, I just try different values, and I found when Ks = 1500, the white dice has the most similar motions as the yellow dice's, that's why I chose this value.
+
+Kd (Damping Constant): Damps velocity on impact to prevent excessive bouncing. Higher values make landings smoother. Reasoning for this is similar to Ks, I just tried different values, and 20 worked the best.
+
+Mu (Friction Coefficient): Adds friction to prevent sliding and promotes rolling. Higher values reduce sliding, enhancing realism. Same reason as Ks and Kd.
+
